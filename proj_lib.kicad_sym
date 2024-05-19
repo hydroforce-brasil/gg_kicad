@@ -987,7 +987,7 @@
     (property "Value" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "proj_lib:SOT95P248X115-3N" (at 0 0 0)
+    (property "Footprint" "proj_lib:SOT95P248X115-3N" (at -7.62 11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
