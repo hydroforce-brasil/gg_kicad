@@ -57,10 +57,10 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6da1a6f6-ff18-4136-918a-b642285598b8))
   (fp_line (start 7.38 1.25) (end 7.38 -12.45)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 240002e2-b3b5-42df-89bf-9c226c987c64))
+  (pad "" np_thru_hole circle (at -5.08 -5.08) (size 3.9 3.9) (drill 2.3844) (layers "F&B.Cu" "*.Mask") (tstamp 489b937f-388e-4e64-84f1-a1467c75751a))
+  (pad "" np_thru_hole circle (at 5.08 -5.08) (size 3.9 3.9) (drill 2.3844) (layers "F&B.Cu" "*.Mask") (tstamp f1c75bab-1c3c-46e6-bd53-ddda44721515))
   (pad "1" thru_hole circle (at 0 0) (size 1.446 1.446) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp d2c3dca5-0128-4971-98a4-50abea1d741d))
   (pad "2" thru_hole circle (at -2.54 0) (size 1.446 1.446) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 065fe9da-6e93-40a6-a306-418d4403293f))
-  (pad "MH1" thru_hole circle (at 5.08 -5.08) (size 3.9 3.9) (drill 2.3844) (layers "*.Cu" "*.Mask") (tstamp f1c75bab-1c3c-46e6-bd53-ddda44721515))
-  (pad "MH2" thru_hole circle (at -5.08 -5.08) (size 3.9 3.9) (drill 2.3844) (layers "*.Cu" "*.Mask") (tstamp 489b937f-388e-4e64-84f1-a1467c75751a))
   (model "${KIPRJMOD}/libs/3dfiles/226990-1.stp"
     (offset (xyz 0 33.61000011 8.430000179))
     (scale (xyz 1 1 1))
