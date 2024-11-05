@@ -1,0 +1,230 @@
+(footprint "SOT-23-3-DMG1012UW-7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "4c9e2d2d-dea2-4c3f-926a-e19011ad982e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3-DMG1012UW-7"
+		(at 0.1 2.4 0)
+		(layer "F.Fab")
+		(uuid "493e94f8-210c-4b2e-a283-99bfd6c56c65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97459a57-801c-4541-b9c7-e936928530fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "271bc118-00a5-4f0b-8a4f-695e26936a85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fddfe84f-0020-419f-a575-36e9060c4602")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 1.56)
+		(end -0.8 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b23f65ba-a41c-4605-aa79-7ccb2fd97cd0")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end 0.8 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "670fb42d-7ff2-4836-b3be-ea3c68ed5693")
+	)
+	(fp_line
+		(start 0.82 -1.4)
+		(end -1.62 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7da72d77-89d9-4dba-8ed6-14b0453d8b1f")
+	)
+	(fp_line
+		(start -2.05 -1.7)
+		(end -2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "752234f2-24ac-4ab7-a2ba-efaa2fed6f38")
+	)
+	(fp_line
+		(start -2.05 1.7)
+		(end 2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3744f6b5-5241-4323-825e-4d91e9f253df")
+	)
+	(fp_line
+		(start 2.05 -1.7)
+		(end -2.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88418870-c14e-4bfc-968e-409979fc4393")
+	)
+	(fp_line
+		(start 2.05 1.7)
+		(end 2.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "304b1762-6b43-4ce4-b04a-12e5bf9c51a6")
+	)
+	(fp_line
+		(start -0.8 -1.05)
+		(end -0.6 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e861feb0-8955-4378-b1a5-40f99b0c73e9")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "416669e3-f042-4766-bb4e-f8d7b5b757e7")
+	)
+	(fp_line
+		(start -0.6 -1.3)
+		(end 0.8 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ecc1a9f-954b-4d13-bfd7-150e55068846")
+	)
+	(fp_line
+		(start 0.8 -1.3)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b76b8b43-42a4-4d91-a9da-0e422d0a525a")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fb7f126-cf16-4c6c-a228-4542bba44168")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.762 -4.826 0)
+		(layer "F.Fab")
+		(uuid "5cab726c-f268-4797-93db-48143b8cae91")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.14 -0.65)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bb02ff96-634e-406a-b93c-504fd8494f00")
+	)
+	(pad "2" smd roundrect
+		(at -1.14 0.65)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0b158be5-98ee-4c39-90ce-91538a400bcf")
+	)
+	(pad "3" smd roundrect
+		(at 1.1375 0)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "23a430fd-5171-4fd5-a897-94fe7a0dae90")
+	)
+	(model "${KIPRJMOD}/libs/3dfiles/SOT_12UW-7_DIO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

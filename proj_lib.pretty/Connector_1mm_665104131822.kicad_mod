@@ -1,0 +1,239 @@
+(footprint "Connector_1mm_665104131822"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-WTB</b><br>1.00 mm SMT Male Horizontal Shrouded,  4 pins")
+	(property "Reference" "REF**"
+		(at -5.932 -1.4464 0)
+		(layer "F.SilkS")
+		(uuid "72a89b88-de0d-4c1a-aaa2-e8982a996c81")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Connector_1mm_665104131822"
+		(at -8.7768 -0.1264 0)
+		(layer "F.Fab")
+		(uuid "77a4b670-6915-4aba-948c-2b978251c1f9")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "258c56c7-59a7-42d8-9b07-3c60d3a1efe9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a79b187-3e42-49cb-bd81-1483d5f729d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd3a8e98-7d47-4462-9667-06888133aa2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -1.695)
+		(end -3.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b1a18d4-ebbd-4384-b6fe-65432a34ebb4")
+	)
+	(fp_line
+		(start -2.2 -1.695)
+		(end -3.1 -1.695)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce1d3dca-bd24-4a6a-9f8d-872e81950167")
+	)
+	(fp_line
+		(start -1.8 2.755)
+		(end 1.8 2.755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62c6767a-b382-430b-ba24-3ff7987a3f74")
+	)
+	(fp_line
+		(start 2.2 -1.695)
+		(end 3.1 -1.695)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30cac9fa-94f9-44e7-91fb-4bc905f3f454")
+	)
+	(fp_line
+		(start 3.1 -1.695)
+		(end 3.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27ff62b8-2978-4be2-88e4-f666621947a3")
+	)
+	(fp_circle
+		(center -2.3 -2.2)
+		(end -2.2 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6de06f92-8edb-4db2-9989-4b44f08ed3a5")
+	)
+	(fp_poly
+		(pts
+			(xy -3.6 3.055) (xy 3.6 3.055) (xy 3.6 -2.9) (xy -3.6 -2.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "bb8d079c-8c07-4aaa-8787-a5217fcc92d5")
+	)
+	(fp_line
+		(start -3 -1.595)
+		(end 3 -1.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a9065d1-1dff-46ae-b3fc-0488d004af3d")
+	)
+	(fp_line
+		(start -3 2.655)
+		(end -3 -1.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d009a9e0-a32c-4dc7-8cfc-8a1e45c96043")
+	)
+	(fp_line
+		(start 3 -1.595)
+		(end 3 2.655)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f486426-1be0-4fec-aba1-13d394b40f07")
+	)
+	(fp_line
+		(start 3 2.655)
+		(end -3 2.655)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15a96458-945b-439b-ac49-61a85de3f2b8")
+	)
+	(pad "1" smd rect
+		(at -1.5 -1.92)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "03a2eb76-4730-411b-a731-66c4c74072ab")
+	)
+	(pad "1" smd rect
+		(at -1.5 -1.92)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7d58dfc3-d616-4b2e-b9a0-272206403daa")
+	)
+	(pad "2" smd rect
+		(at -0.5 -1.92)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "04de76f1-8f19-4140-9fe3-ff814a8fb417")
+	)
+	(pad "3" smd rect
+		(at 0.5 -1.92)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9c649ec2-76c2-473d-8527-5e5cfa2b0489")
+	)
+	(pad "4" smd rect
+		(at 1.5 -1.92)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2bc4278e-b41f-449d-a4e2-7feb3bfdc225")
+	)
+	(pad "Z1" smd rect
+		(at -2.7 1.5)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7f67faa6-86eb-4e13-a7d5-3efb6dd0771c")
+	)
+	(pad "Z2" smd rect
+		(at 2.7 1.5)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "62034ee7-fb85-4b37-8b2d-3b7220a2db59")
+	)
+	(model "${KIPRJMOD}/libs/3dfiles/665104131822.step"
+		(offset
+			(xyz 0 -0.5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
