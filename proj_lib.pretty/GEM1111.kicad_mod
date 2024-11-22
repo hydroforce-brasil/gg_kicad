@@ -68,7 +68,7 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start 0 2.3)
+		(start 0 2)
 		(end 16 18.3)
 		(stroke
 			(width 0.1)
@@ -179,11 +179,22 @@
 		(uuid "a2bab48f-aa9c-47d7-905a-4375427b7ae4")
 	)
 	(pad "12" smd roundrect
-		(at 0 16)
-		(size 2 1)
+		(at 0 16.55)
+		(size 2 2.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.02)
 		(thermal_bridge_angle 45)
 		(uuid "04aa1c83-f44d-4921-b5f4-cc47e9ed9397")
+	)
+	(model "${KIPRJMOD}/libs/3dfiles/BY-GPS_Glonass-184.step"
+		(offset
+			(xyz -1 -19 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
