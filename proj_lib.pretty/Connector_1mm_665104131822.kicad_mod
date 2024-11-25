@@ -176,12 +176,19 @@
 		(layer "F.Fab")
 		(uuid "15a96458-945b-439b-ac49-61a85de3f2b8")
 	)
-	(pad "1" smd rect
-		(at -1.5 -1.92)
-		(size 0.6 1.7)
+	(pad "" smd rect
+		(at -2.7 1.5)
+		(size 1.2 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
-		(uuid "03a2eb76-4730-411b-a731-66c4c74072ab")
+		(uuid "7f67faa6-86eb-4e13-a7d5-3efb6dd0771c")
+	)
+	(pad "" smd rect
+		(at 2.7 1.5)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "62034ee7-fb85-4b37-8b2d-3b7220a2db59")
 	)
 	(pad "1" smd rect
 		(at -1.5 -1.92)
@@ -210,20 +217,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "2bc4278e-b41f-449d-a4e2-7feb3bfdc225")
-	)
-	(pad "Z1" smd rect
-		(at -2.7 1.5)
-		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
-		(uuid "7f67faa6-86eb-4e13-a7d5-3efb6dd0771c")
-	)
-	(pad "Z2" smd rect
-		(at 2.7 1.5)
-		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
-		(uuid "62034ee7-fb85-4b37-8b2d-3b7220a2db59")
 	)
 	(model "${KIPRJMOD}/libs/3dfiles/665104131822.step"
 		(offset
