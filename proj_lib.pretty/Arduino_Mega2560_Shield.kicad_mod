@@ -64,13 +64,73 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start 41.75 -46.75)
+		(end 28.5 -46.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7934a04-201b-43c4-bbe5-4b63145e0823")
+	)
+	(fp_line
+		(start 45.75 -46.75)
+		(end 56.5 -46.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa06b499-6993-4349-9d9a-d1ea0428c441")
+	)
+	(fp_line
+		(start 51.75 -7.75)
+		(end 50.125 -6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8616415-bdee-4014-af22-8e35f4558939")
+	)
+	(fp_line
+		(start 56.5 -46.75)
+		(end 58.25 -47.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5be5244-9d2f-4d98-9dbe-0a222bc7f983")
+	)
+	(fp_line
+		(start 64 -7.75)
+		(end 51.75 -7.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f23b1ca-0c2c-4954-ac5a-5e1f848bf4be")
+	)
+	(fp_line
+		(start 74.25 -7.75)
+		(end 91.75 -7.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e834062-3c73-4553-8fab-08115191a4eb")
+	)
+	(fp_line
 		(start 0 -53.34)
 		(end 0 0)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "c31907d4-74e2-4f8e-aa36-38a5c1a522ef")
 	)
 	(fp_line
@@ -80,7 +140,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "a89710ab-b6f3-4433-9ecc-2e4f44b94929")
 	)
 	(fp_line
@@ -90,7 +150,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "c427b396-0bf2-4176-9aa6-babe83a0cec4")
 	)
 	(fp_line
@@ -100,7 +160,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "2579b06e-47d8-4418-9327-bc9305854b38")
 	)
 	(fp_line
@@ -922,6 +982,19 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "ANALOG"
+		(at 68.25 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "97eb62e9-69ec-4b69-967b-f717aa5c428a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "3V3"
 		(at 36.25 -4.25 90)
 		(unlocked yes)
@@ -1109,6 +1182,19 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c1c113a7-2372-400f-a20c-377fb517cae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "PWM"
+		(at 42 -46.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c25553c7-fcfd-4168-8ec8-428f6ccc1879")
 		(effects
 			(font
 				(size 1 1)
