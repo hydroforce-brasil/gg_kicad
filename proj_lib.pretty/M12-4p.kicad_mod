@@ -1,4 +1,4 @@
-(footprint "SP1312_S4"
+(footprint "M12-4p"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SP1312_S4"
+	(property "Value" "M12-4p"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
