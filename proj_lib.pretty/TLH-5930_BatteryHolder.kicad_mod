@@ -1,0 +1,218 @@
+(footprint "TLH-5930_BatteryHolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04eb1b5e-1acf-4c55-8e8d-3f4ee60880ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TLH-5930_BatteryHolder"
+		(at 0 -33.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18e6f265-fcf0-42d7-8ad2-919002b075d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33d1d188-4e03-4200-b6a2-86d708a232bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45836a55-8ad9-4e3e-b386-61c578f32d0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.5 -62)
+		(end -16.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "96d5a40f-e2aa-4e79-bd1b-b82a94183190")
+	)
+	(fp_line
+		(start -16.5 0)
+		(end -3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6bc44a2c-c770-4cc6-8f16-66dd7064c745")
+	)
+	(fp_line
+		(start -3.5 -62)
+		(end -16.5 -62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5da3ad12-4c7e-496a-a1d5-84f9cd93d9ed")
+	)
+	(fp_line
+		(start -3.5 -61)
+		(end -3.5 -62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d938501-b391-44be-aa00-9e8242ccd4ed")
+	)
+	(fp_line
+		(start -3.5 -1)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "646462d0-bccd-48cc-8a28-fe1dc8f4f2cf")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -3.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ee118a40-b48f-4852-9ae8-5a197a454a6f")
+	)
+	(fp_line
+		(start 0 -1)
+		(end 3.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "76b6c55a-428b-4284-a6b8-03b4f1409668")
+	)
+	(fp_line
+		(start 3.5 -62)
+		(end 3.5 -61)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "912669c6-3f12-4bd2-864d-a35dbb93d12b")
+	)
+	(fp_line
+		(start 3.5 -61)
+		(end -3.5 -61)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "82dc4bf1-b2c7-4839-9a01-dfe3742c8427")
+	)
+	(fp_line
+		(start 3.5 -1)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "001e965b-d590-499c-8b0e-e5e05b9bc2f9")
+	)
+	(fp_line
+		(start 3.5 0)
+		(end 16.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "33dc4318-7a0a-448b-ad14-a851367d9587")
+	)
+	(fp_line
+		(start 16.5 -62)
+		(end 3.5 -62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "983c2809-8c07-4132-80d2-de79c0b27cf2")
+	)
+	(fp_line
+		(start 16.5 0)
+		(end 16.5 -62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1ed3e4f7-a519-4c62-ad1f-b179c01ad0f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -32 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf0318e8-3d49-4ebc-80f9-0f0ec5ab5ffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0.2)
+		(size 5 2)
+		(drill oval 4 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0be7563d-72a8-43f2-94e9-8cedffd52e86")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -62.2)
+		(size 5 2)
+		(drill oval 4 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1292a11d-d868-41b0-8386-ee14d266da85")
+	)
+	(embedded_fonts no)
+)
