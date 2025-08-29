@@ -267,7 +267,7 @@
 		(uuid "63c7f183-a690-4b11-becf-0dbf892f1af8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3dfiles/MAX31328NELB+T.stp"
+	(model "${PROJ_LIB_3D_FILES}/MAX31328NELB+T.stp"
 		(offset
 			(xyz 0 0 0)
 		)
