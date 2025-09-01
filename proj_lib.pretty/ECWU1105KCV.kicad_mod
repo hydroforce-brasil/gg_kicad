@@ -167,13 +167,13 @@
 	(embedded_fonts no)
 	(model "${PROJ_LIB_3D_FILES}/ECWU1105KCV.STEP"
 		(offset
-			(xyz 0 -2.5 3)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
