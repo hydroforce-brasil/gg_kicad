@@ -1,7 +1,7 @@
 (footprint "CAPRR1500W80L1850T700H1500"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -6.325 -4.585 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da8d87d1-977d-4bfa-a1e9-2e90bb306a1d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -200,7 +188,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "386c7f32-7e52-469b-8868-105f47628653")
 	)
-	(model "${KIPRJMOD}/libs/3dfiles/ECQE1225KF.STEP"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/ECQE1225KF.STEP"
 		(offset
 			(xyz 0 0 1.5)
 		)

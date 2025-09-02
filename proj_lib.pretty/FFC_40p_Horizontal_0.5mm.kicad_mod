@@ -549,4 +549,15 @@
 		(uuid "24855816-71af-452e-8770-c49116fc9e9a")
 	)
 	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/FPC-40.stp"
+		(offset
+			(xyz -9 7.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -1,7 +1,7 @@
 (footprint "Push_Button_PTS636SK25FSMTRLFS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PTS636 SK25F SMTR LFS-1")
 	(tags "Switch")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f86b0b4b-65b5-48f5-a0b0-d589a0568997")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -261,16 +249,17 @@
 	(pad "1" smd rect
 		(at -3.3 0 90)
 		(size 1 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7b2ed33b-4bf4-4ee6-9607-0909e7f87096")
 	)
 	(pad "2" smd rect
 		(at 3.3 0 90)
 		(size 1 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "746ec31e-851f-48d6-b3ed-4fedfda6a665")
 	)
-	(model "${KIPRJMOD}/libs/3dfiles/PTS636_SK25F_SMTR_LFS.stp"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/PTS636_SK25F_SMTR_LFS.stp"
 		(offset
 			(xyz 0 0 2.5)
 		)

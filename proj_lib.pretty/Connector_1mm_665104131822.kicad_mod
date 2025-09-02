@@ -1,7 +1,7 @@
 (footprint "Connector_1mm_665104131822"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "<b>WR-WTB</b><br>1.00 mm SMT Male Horizontal Shrouded,  4 pins")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 0.64 0.64)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "258c56c7-59a7-42d8-9b07-3c60d3a1efe9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -120,7 +108,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "6de06f92-8edb-4db2-9989-4b44f08ed3a5")
 	)
@@ -132,7 +120,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.CrtYd")
 		(uuid "bb8d079c-8c07-4aaa-8787-a5217fcc92d5")
 	)
@@ -179,46 +167,47 @@
 	(pad "" smd rect
 		(at -2.7 1.5)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "7f67faa6-86eb-4e13-a7d5-3efb6dd0771c")
 	)
 	(pad "" smd rect
 		(at 2.7 1.5)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "62034ee7-fb85-4b37-8b2d-3b7220a2db59")
 	)
 	(pad "1" smd rect
 		(at -1.5 -1.92)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "7d58dfc3-d616-4b2e-b9a0-272206403daa")
 	)
 	(pad "2" smd rect
 		(at -0.5 -1.92)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "04de76f1-8f19-4140-9fe3-ff814a8fb417")
 	)
 	(pad "3" smd rect
 		(at 0.5 -1.92)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "9c649ec2-76c2-473d-8527-5e5cfa2b0489")
 	)
 	(pad "4" smd rect
 		(at 1.5 -1.92)
 		(size 0.6 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "2bc4278e-b41f-449d-a4e2-7feb3bfdc225")
 	)
-	(model "${KIPRJMOD}/libs/3dfiles/665104131822.step"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/665104131822.step"
 		(offset
 			(xyz 0 -0.5 1.5)
 		)

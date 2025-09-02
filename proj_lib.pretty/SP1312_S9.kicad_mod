@@ -1,7 +1,7 @@
 (footprint "SP1312_S9"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -13.175 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "308ef95e-1c8a-40cd-86a5-a56da74d03f3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3f656897-86ee-4fcf-9774-accc1a0c634c")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4b62e093-5ef6-4490-84fb-6bbae579102e")
 	)
@@ -265,5 +252,17 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "40e3805c-dca5-410f-ba95-c20003bd5cb7")
+	)
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/SP1312-P_S-N.stp"
+		(offset
+			(xyz -46 -4 -4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
 	)
 )

@@ -1,7 +1,7 @@
 (footprint "M12-12p"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -13.3 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e030ece2-0d03-4739-841a-60a810ee11cc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8e4672dc-d2e1-4d2e-b24e-d2ee4d06a3e6")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b0e5849e-5a2f-4428-ad28-2dcb10d19a21")
 	)
@@ -186,15 +173,16 @@
 		(remove_unused_layers no)
 		(uuid "f599c787-d10d-46b1-8ca6-5b5534b970d2")
 	)
-	(model "/home/gbueno/Documents/GitRepos/cable_tester_pcb/libs/3dfiles/M12 12P male.STEP"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/M12 12P male.STEP"
 		(offset
-			(xyz 0 6.25 13)
+			(xyz 0 6.25 10.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -180)
+			(xyz -0 -0 -180)
 		)
 	)
 )

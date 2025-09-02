@@ -1,7 +1,7 @@
 (footprint "M12-12p_90deg"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e030ece2-0d03-4739-841a-60a810ee11cc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8e4672dc-d2e1-4d2e-b24e-d2ee4d06a3e6")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "74fee5f6-d880-470a-9ede-438f118063f5")
 	)
@@ -85,7 +72,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "d92829ae-4c70-473f-a6b2-175c78a44627")
 	)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "d7d3a1c0-413d-488c-94f3-2d2870e0ec33")
 	)
@@ -107,7 +94,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "df2b6126-3964-4a24-99a8-598a2b743006")
 	)
@@ -118,7 +105,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "72f5e909-8677-44e6-9140-02a58cb991f6")
 	)
@@ -230,7 +217,8 @@
 		(remove_unused_layers no)
 		(uuid "f599c787-d10d-46b1-8ca6-5b5534b970d2")
 	)
-	(model "/home/gbueno/Documents/GitRepos/custom_ftdi_pcb/libs/3dfiles/M12 12P male 90 PCB.STEP"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/M12 12P male 90 PCB.STEP"
 		(offset
 			(xyz 5 -1.5 15.5)
 		)

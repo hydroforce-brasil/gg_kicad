@@ -1,7 +1,7 @@
 (footprint "SZMMSZ4693T1G"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.190001 -1.785001 0)
@@ -15,22 +15,10 @@
 			(justify left)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "d923bade-7935-417b-9def-965a79be580e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2aa4b275-0441-427c-b83e-8b6ce30422e1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -110,7 +98,7 @@
 			(width 0.249999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "94c48b31-3397-4800-9f68-b2b015f94813")
 	)
@@ -207,16 +195,17 @@
 	(pad "1" smd rect
 		(at -1.635001 0 180)
 		(size 0.910001 1.22)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b7216d4-6138-436d-b125-08db6b9543ca")
 	)
 	(pad "2" smd rect
 		(at 1.635001 0 180)
 		(size 0.910001 1.22)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d64bc894-720d-43b4-9905-94dea185fe83")
 	)
-	(model "${KIPRJMOD}/libs/3dfiles/SZMMSZ4693T1G.step"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/SZMMSZ4693T1G.step"
 		(offset
 			(xyz 0 0 0)
 		)

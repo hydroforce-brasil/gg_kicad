@@ -1,7 +1,7 @@
 (footprint "SOP50P490X110-10N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RM-10")
 	(tags "Integrated Circuit")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e79eb678-c54b-47a9-8db0-23201309131d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -219,64 +207,65 @@
 	(pad "1" smd rect
 		(at -2.225 -1 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e7e2851-51b6-4642-bc2c-ea6a5371e66f")
 	)
 	(pad "2" smd rect
 		(at -2.225 -0.5 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3d58d060-a149-42ea-91f5-eb37da35dd33")
 	)
 	(pad "3" smd rect
 		(at -2.225 0 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e45fc1b8-e87a-424f-8dff-6d2070494adb")
 	)
 	(pad "4" smd rect
 		(at -2.225 0.5 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9287a88f-40d1-4e36-8539-fd9940377ec8")
 	)
 	(pad "5" smd rect
 		(at -2.225 1 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "13370da3-2131-4f1d-aa91-bfcc88445e81")
 	)
 	(pad "6" smd rect
 		(at 2.225 1 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "72458ed8-d245-40e7-b2b4-ab5436634cd9")
 	)
 	(pad "7" smd rect
 		(at 2.225 0.5 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "95bf33dc-151d-4f79-9f59-d257b1f307ce")
 	)
 	(pad "8" smd rect
 		(at 2.225 0 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3db6acb9-23b5-471d-831c-d38fc7ea614c")
 	)
 	(pad "9" smd rect
 		(at 2.225 -0.5 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "84481bb7-ac21-4872-a50a-18ab08a0ec5d")
 	)
 	(pad "10" smd rect
 		(at 2.225 -1 90)
 		(size 0.3 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "85535a66-d49f-46e0-b9f1-d0e411446f78")
 	)
-	(model "AD5248BRMZ100.stp"
+	(embedded_fonts no)
+	(model "${PROJ_LIB_3D_FILES}/AD5248BRMZ100.stp"
 		(offset
 			(xyz 0 0 0.5299999634)
 		)
@@ -285,17 +274,6 @@
 		)
 		(rotate
 			(xyz 90 0 -90)
-		)
-	)
-	(model "${KIPRJMOD}/libs/3dfiles/RM_10_ADI.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
 		)
 	)
 )

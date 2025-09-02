@@ -309,7 +309,7 @@
 		(uuid "b8f58bb1-f592-4d85-9299-b78c362b7ea6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3dfiles/AFA01-S06FCC-00--3DModel-STEP-269445.STEP"
+	(model "${PROJ_LIB_3D_FILES}/AFA01-S06FCC-00--3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 1 0)
 		)

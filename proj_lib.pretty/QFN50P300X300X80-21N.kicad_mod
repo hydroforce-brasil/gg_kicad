@@ -412,7 +412,7 @@
 		(uuid "7e2a8b4a-46bf-429a-a280-d155be084d49")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/3dfiles/SI4706-D50-GM.step"
+	(model "${PROJ_LIB_3D_FILES}/SI4706-D50-GM.step"
 		(offset
 			(xyz 0 0 0)
 		)
