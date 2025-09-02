@@ -1,4 +1,4 @@
-(footprint "SOT95P248X115-3N"
+(footprint "BAT54S"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT95P248X115-3N"
+	(property "Value" "BAT54S"
 		(at 0 -7.62 0)
 		(layer "F.SilkS")
 		(hide yes)

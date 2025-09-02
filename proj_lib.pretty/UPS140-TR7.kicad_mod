@@ -1,4 +1,4 @@
-(footprint "MBRM120ET3G"
+(footprint "UPS140-TR7"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MBRM120ET3G"
+	(property "Value" "UPS140-TR7"
 		(at -0.762 -8.89 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -177,7 +177,7 @@
 		(uuid "722a57d2-b3b8-4ef1-b47a-5367e4a44442")
 	)
 	(embedded_fonts no)
-	(model "${PROJ_LIB_3D_FILES}/MBRM140T3G.stp"
+	(model "${PROJ_LIB_3D_FILES}/UPS140-TR7.stp"
 		(offset
 			(xyz -1 0 0.45)
 		)

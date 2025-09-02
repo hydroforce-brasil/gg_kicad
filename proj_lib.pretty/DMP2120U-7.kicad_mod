@@ -1,4 +1,4 @@
-(footprint "DMP2120U-7_SOT-23"
+(footprint "DMP2120U-7"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "DMP2120U-7_SOT-23"
+	(property "Value" "DMP2120U-7"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(uuid "3e836669-3614-454b-9339-3e6577915bb6")
@@ -307,7 +307,7 @@
 		(uuid "bb4d6856-f44e-4424-8003-e60e79d063d5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+	(model "${PROJ_LIB_3D_FILES}/DMP2120U-7.step"
 		(offset
 			(xyz 0.2 -0.2 0)
 		)
@@ -315,7 +315,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -90)
+			(xyz -0 -0 -0)
 		)
 	)
 )

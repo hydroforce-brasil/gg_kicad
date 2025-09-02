@@ -3018,7 +3018,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 21.59 7.62 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "proj_lib:SOP50P490X110-10N"
+		(property "Footprint" "proj_lib:AD5248BRMZ100"
 			(at 21.59 -94.92 0)
 			(effects
 				(font
@@ -4291,25 +4291,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 5.08 0)
+			(at -0.254 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "AD8544ARUZ"
-			(at 0 -5.08 0)
+			(at -0.254 -0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "proj_lib:SOP65P640X120-14N"
-			(at 0 0 0)
+		(property "Footprint" "proj_lib:AD8544ARUZ"
+			(at 0.254 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at -0.254 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4325,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 0 0 0)
+			(at -0.254 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4334,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at -7.62 21.59 0)
+			(at -0.254 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4343,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at -6.35 12.7 0)
+			(at -0.254 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4352,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 0 0 0)
+			(at -0.254 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4361,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at -7.62 21.59 0)
+			(at -0.254 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4398,7 @@
 		(symbol "AD8544ARUZ_1_1"
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					(xy -5.08 12.7) (xy 5.08 7.62) (xy -5.08 2.54) (xy -5.08 12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -4411,7 +4409,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 2.54 0)
+				(at -7.62 10.16 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -4429,7 +4427,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -2.54 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -4447,7 +4445,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 0 180)
+				(at 7.62 7.62 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4713,7 +4711,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 31.75 15.24 0)
 			(effects
 				(font
@@ -4731,7 +4729,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "proj_lib:QFN50P300X300X80-17N-D"
+		(property "Footprint" "proj_lib:ADS122C04IRTER"
 			(at 31.75 -87.3 0)
 			(effects
 				(font
@@ -8523,16 +8521,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "BAT54S"
+			(at 0 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "proj_lib:SOT95P248X115-3N"
-			(at -7.62 11.43 0)
+		(property "Footprint" "proj_lib:BAT54S"
+			(at 0 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8559,7 @@
 		(symbol "BAT54S-V_1_1"
 			(polyline
 				(pts
-					(xy 11.43 4.064) (xy 11.684 3.81) (xy 13.716 3.81) (xy 13.97 3.556)
+					(xy -7.62 5.08) (xy 0.381 5.08)
 				)
 				(stroke
 					(width 0)
@@ -8574,20 +8572,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -1.27) (xy 11.684 -1.524) (xy 13.716 -1.524) (xy 13.97 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 132 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 3.81) (xy 11.43 1.27) (xy 13.97 1.27) (xy 12.7 3.81)
+					(xy -2.794 5.08) (xy -5.334 6.35) (xy -5.334 3.81) (xy -2.794 5.08)
 				)
 				(stroke
 					(width 0)
@@ -8601,7 +8586,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -0.635) (xy 12.7 5.715)
+					(xy -2.54 6.35) (xy -2.794 6.096) (xy -2.794 4.064) (xy -3.048 3.81)
 				)
 				(stroke
 					(width 0)
@@ -8614,7 +8599,20 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -1.524) (xy 11.43 -4.064) (xy 13.97 -4.064) (xy 12.7 -1.524)
+					(xy -0.635 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 6.35) (xy 2.54 3.81) (xy 5.08 5.08)
 				)
 				(stroke
 					(width 0)
@@ -8628,7 +8626,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -5.969) (xy 12.7 0.381)
+					(xy 5.334 6.35) (xy 5.08 6.096) (xy 5.08 4.064) (xy 4.826 3.81)
 				)
 				(stroke
 					(width 0)
@@ -8639,8 +8637,26 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 0 0)
+			(pin passive line
+				(at -7.62 2.54 90)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
 				(length 2.54)
 				(name "KA"
 					(effects
@@ -8657,8 +8673,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 7.62 270)
+			(pin passive line
+				(at 7.62 2.54 90)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -8675,10 +8691,230 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 12.7 -7.62 90)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DMP2120U-7"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 3.048 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP2120U-7"
+			(at 3.048 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "proj_lib:DMP2120U-7"
+			(at 13.462 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DMP2120U-7_0_1"
+			(polyline
+				(pts
+					(xy -2.286 6.985) (xy -2.286 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 7.366) (xy -1.778 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 6.858) (xy 0.762 6.858) (xy 0.762 3.302) (xy -1.778 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 5.588) (xy -1.778 4.572)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 3.81) (xy -1.778 2.794)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.889 5.08)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 5.08) (xy -1.27 5.461) (xy -1.27 4.699) (xy -0.254 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy 0 6.858)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 6.858)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 3.302)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 5.08) (xy -1.778 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.381 4.699) (xy 1.143 4.699)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 4.699) (xy 0.381 5.334) (xy 1.143 5.334) (xy 0.762 4.699)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMP2120U-7_1_1"
+			(pin input line
+				(at -6.35 5.08 0)
 				(length 2.54)
-				(name "A"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8686,6 +8922,42 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 10.16 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12237,7 +12509,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12245,16 +12517,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "ME6217C33M5G"
+			(at 0 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "proj_lib:ME6217C33M5G"
+			(at 0 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12585,7 @@
 			(pin passive line
 				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "GND"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12331,7 +12603,7 @@
 			(pin passive line
 				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "EN"
+				(name "CE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12375,6 +12647,158 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MIC2288YD5-TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC2288YD5-TR"
+			(at 0 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "proj_lib:MIC2288YD5-TR"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC2288YD5-TR_1_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -1.27 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14433,6 +14857,212 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TPA6111A2DR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPA6111A2DR"
+			(at 0 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "proj_lib:TPA6111A2DR"
+			(at 0 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPA6111A2DR_1_1"
+			(rectangle
+				(start -10.16 15.24)
+				(end 10.16 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "IN1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "IN2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "SHUTDOWN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "V01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "V02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "BYPASS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TPS61023DRLR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14830,6 +15460,123 @@
 				(fill
 					(type color)
 					(color 255 255 194 1)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "UPS140-TR7"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UPS140-TR7"
+			(at 0 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "proj_lib:UPS140-TR7"
+			(at 0 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "UPS140-TR7_1_1"
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 3.81) (xy 1.27 3.556) (xy 1.27 1.524) (xy 1.016 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 2.54 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 2.54 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 		)

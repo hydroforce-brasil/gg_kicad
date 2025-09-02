@@ -1,4 +1,4 @@
-(footprint "QFN50P300X300X80-17N-D"
+(footprint "ADS122C04IRTER"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN50P300X300X80-17N-D"
+	(property "Value" "ADS122C04IRTER"
 		(at 0 -10.16 0)
 		(layer "F.SilkS")
 		(hide yes)

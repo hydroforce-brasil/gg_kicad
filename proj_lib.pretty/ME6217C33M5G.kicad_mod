@@ -1,4 +1,4 @@
-(footprint "SOT-23-5L"
+(footprint "ME6217C33M5G"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-23-5L"
+	(property "Value" "ME6217C33M5G"
 		(at -1.2 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -126,7 +126,7 @@
 		(uuid "172b515f-13aa-42a2-b6ac-db67c2e524e7")
 	)
 	(embedded_fonts no)
-	(model "${PROJ_LIB_3D_FILES}/SOT23_5.stp"
+	(model "${PROJ_LIB_3D_FILES}/ME6217C33M5G.stp"
 		(offset
 			(xyz 0 1.5 0)
 		)

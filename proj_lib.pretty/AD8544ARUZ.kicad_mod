@@ -1,4 +1,4 @@
-(footprint "SOP65P640X120-14N"
+(footprint "AD8544ARUZ"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOP65P640X120-14N"
+	(property "Value" "AD8544ARUZ"
 		(at 0 -10.16 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -289,7 +289,7 @@
 		(uuid "6be0e1e9-4d92-4f6a-afcf-e2d5dd96200a")
 	)
 	(embedded_fonts no)
-	(model "${PROJ_LIB_3D_FILES}/SOP65P640X120-14N.stp"
+	(model "${PROJ_LIB_3D_FILES}/AD8544ARUZ.stp"
 		(offset
 			(xyz 0 0.009999999626 0.6799999969)
 		)

@@ -1,4 +1,4 @@
-(footprint "SOP50P490X110-10N"
+(footprint "AD5248BRMZ100"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOP50P490X110-10N"
+	(property "Value" "AD5248BRMZ100"
 		(at -0.4 -5.4 0)
 		(layer "F.SilkS")
 		(hide yes)

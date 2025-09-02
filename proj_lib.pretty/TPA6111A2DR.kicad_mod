@@ -1,4 +1,4 @@
-(footprint "SOIC127P600X175-8N"
+(footprint "TPA6111A2DR"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOIC127P600X175-8N"
+	(property "Value" "TPA6111A2DR"
 		(at 0 -7.874 0)
 		(layer "F.SilkS")
 		(hide yes)
