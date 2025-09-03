@@ -1,4 +1,4 @@
-(footprint "FFC_40p_Horizontal_0.5mm"
+(footprint "FFC_40p_0.5mm_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "FFC_40p_Horizontal_0.5mm"
+	(property "Value" "FFC_40p_0.5mm_Horizontal"
 		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -549,7 +549,7 @@
 		(uuid "24855816-71af-452e-8770-c49116fc9e9a")
 	)
 	(embedded_fonts no)
-	(model "${PROJ_LIB_3D_FILES}/FPC-40.stp"
+	(model "${PROJ_LIB_3D_FILES}/FFC_40p_0.5mm_Horizontal.stp"
 		(offset
 			(xyz -9 7.5 0)
 		)

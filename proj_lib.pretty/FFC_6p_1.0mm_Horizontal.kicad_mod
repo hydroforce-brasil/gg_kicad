@@ -1,4 +1,4 @@
-(footprint "FCC_JUSHUO_AFA01-S06FCC-00"
+(footprint "FFC_6p_1.0mm_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "FCC_JUSHUO_AFA01-S06FCC-00"
+	(property "Value" "FFC_6p_1.0mm_Horizontal"
 		(at 7.9375 -5.2125 0)
 		(layer "F.Fab")
 		(uuid "928db1a7-6ba4-44bb-9c8b-b9d895e8e054")
@@ -309,7 +309,7 @@
 		(uuid "b8f58bb1-f592-4d85-9299-b78c362b7ea6")
 	)
 	(embedded_fonts no)
-	(model "${PROJ_LIB_3D_FILES}/AFA01-S06FCC-00--3DModel-STEP-269445.STEP"
+	(model "${PROJ_LIB_3D_FILES}/FFC_6p_1.0mm_Horizontal.STEP"
 		(offset
 			(xyz 0 1 0)
 		)
